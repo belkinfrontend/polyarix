@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="test-task Polyarix">
+    <meta name="keywords" content="test Polyarix">
+    <meta name="author" content="Dmitriy Belkin">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Polyarix - TEST</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="logo-wrap"><img class="logo" src="images/logo.svg">
+          <div class="language">
+            <select>
+              <option>rus</option>
+              <option>ukr</option>
+            </select>
+            <select>
+              <option>usd</option>
+              <option>hrv</option>
+            </select>
+          </div>
+        </div>
+        <div class="authorization"><a href="#">Войти</a><a href="#">Зарегистрироваться</a></div>
+      </nav>
+      <section>
+        <p>Мир, которым вы его еще не видели</p>
+        <form action="">
+          <label for="country">Страна</label>
+          <input type="text" id="country" name="country" placeholder="Например, Франция">
+          <label for="date1">Начальная дата</label>
+          <input type="date" id="data1" name="date1">
+          <label for="date2">Конечная дата</label>
+          <input type="date" id="data2" name="data2">
+          <label for="amount">Количество человек</label>
+          <select id="amount">
+            <option>1 человек</option>
+            <option>2 человека</option>
+          </select>
+          <input type="submit" value="Начать поиск">
+        </form>
+      </section>
+      <p class="popular">Одно из самых популярных<br>направлений этого года - <span>Австрия</span></p>
+    </main>
+    <div class="description">
+      <p>Доска объявлений туристических компаний и частных гидов с эксклюзивными предложениями. Мы создаем доступный отдых для наших клиентов по всему миру. Для наших клиентов мы подбираем уникальные экскурсии в соответствии с пожеланиями.</p>
+    </div>
+    <div class="travel">
+      <h2>Путешествия с гидом</h2>
+      <section>
+        <article> <img src="images/travel-1.png">
+          <p>Самые популярные</p>
+          <p>Побродив по улочкам Рима, познав его историю и впитав в себя настоящую итальянскую атмосферу, самое время отправиться.</p>
+          <div class="details"><a href="#">Подробнее ></a><span>Более 429K объявлений</span></div>
+        </article>
+        <article> <img src="images/travel-2.png">
+          <p>Самые экзотические</p>
+          <p>Слетать на выходные в Эмираты, окунуться в Персидский залив, прогуляться по ночному Дубаю… Все в твоих руках!</p>
+          <div class="details"><a href="#">Подробнее ></a><span>Более 429K объявлений</span></div>
+        </article>
+        <article> <img src="images/travel-3.png">
+          <p>Эксклюзивно для вас</p>
+          <p>Средиземное море выглядит, по меньшей мере, притягательно. К счастью, на Мальтийском архипелаге от любой точки островов.</p>
+          <div class="details"><a href="#">Подробнее ></a><span>Более 429K объявлений</span></div>
+        </article>
+      </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

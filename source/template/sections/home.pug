@@ -1,0 +1,44 @@
+main
+    nav
+        .logo-wrap
+            img.logo(src="images/logo.svg")
+            .language
+                select
+                    option rus
+                    option ukr
+
+                select
+                    option usd
+                    option hrv
+                
+        .authorization
+            a(href="#") Войти
+            a(href="#") Зарегистрироваться
+            
+    section
+        p Мир, которым вы его еще не видели
+        form(action="")
+        
+            label(for="country") Страна
+            input(type="text" id="country" name="country" placeholder="Например, Франция")
+            
+            label(for="date1") Начальная дата
+            input(type="date" id="data1" name="date1")
+            
+            label(for="date2") Конечная дата
+            input(type="date" id="data2" name="data2")
+            
+            label(for="amount") Количество человек
+            select(id="amount")
+                option 1 человек
+                option 2 человека
+            
+            input(type="submit" value="Начать поиск")
+    p.popular Одно из самых популярных
+        br
+        | направлений этого года - 
+        span Австрия
+        
+.description
+    p Доска объявлений туристических компаний и частных гидов с эксклюзивными предложениями. Мы создаем доступный отдых для наших клиентов по всему миру. Для наших клиентов мы подбираем уникальные экскурсии в соответствии с пожеланиями.
+                
